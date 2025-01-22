@@ -24,7 +24,7 @@ deval - decrypt eval encrypted shell script
 EOF
 }
 
-if [[ "$1" == "-l" ]]; then
+if [ "$1" == "-l" ]; then
 	DOUBLE_LAYER=true
 	shift
 fi
